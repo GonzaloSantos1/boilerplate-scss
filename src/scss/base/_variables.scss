@@ -1,0 +1,31 @@
+//Color
+$main: #fffffe;
+$stroke: #272343;
+$highlight: #ffd803;
+$secondary: #e3f6f5;
+$tertiary: #bae8e8;
+
+//Sizes
+$title: 32px;
+$title-desktop: 40px;
+$subtitle: 26px;
+$subtitle-desktop: 34px;
+$paragraph: 20px;
+$paragraph-desktop: 28px;
+
+//screen-sizes
+$tablet: 768px;
+$desktop: 992px;
+
+//border
+$border-size: 5px;
+$border: $border-size solid $highlight;
+
+//margins
+$margin-viewport: 30px;
+$margin-hero: 20px;
+
+//gallery-item
+$size-container-gallery: 200px;
+$size-container-gallery-desktop: 400px;
+$margin-gallery: 20px;

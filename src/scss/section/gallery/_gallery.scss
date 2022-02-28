@@ -1,0 +1,19 @@
+.gallery {
+  background-color: $secondary;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      max-width: $size-container-gallery;
+      margin: $margin-gallery;
+      @include desktop {
+        max-width: $size-container-gallery-desktop;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.navigation {
+  border: $border;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    &__item {
+      display: flex;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+  }
+}

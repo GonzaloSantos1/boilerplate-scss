@@ -1,0 +1,34 @@
+// Typography
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import "./variables";
+
+@import "./mixins";
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: $title;
+  color: $stroke;
+  @include desktop {
+    font-size: $title-desktop;
+  }
+}
+
+h2 {
+  font-size: $subtitle;
+  color: $stroke;
+  @include desktop {
+    font-size: $subtitle-desktop;
+  }
+}
+
+p {
+  font-size: $paragraph;
+  color: $stroke;
+  @include desktop {
+    font-size: $paragraph-desktop;
+  }
+}

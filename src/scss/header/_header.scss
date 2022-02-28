@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  .logo-container {
+    max-width: 50px;
+    @include desktop {
+      max-width: 100px;
+    }
+    &__img {
+      width: 100%;
+    }
+  }
+}

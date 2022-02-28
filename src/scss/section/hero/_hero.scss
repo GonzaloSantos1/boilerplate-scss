@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    margin: $margin-hero;
+
+    &__container-image {
+      max-width: 500px;
+      @include desktop {
+        max-width: 750px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .content-right {
+    max-width: 750px;
+    @include desktop {
+      max-width: 850px;
+    }
+  }
+}

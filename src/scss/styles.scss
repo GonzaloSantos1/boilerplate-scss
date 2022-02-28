@@ -1,0 +1,18 @@
+@import "./base/_main";
+
+@import "./header/_header";
+
+@import "./navigation/_navigation";
+
+@import "./section/hero/_hero";
+
+@import "./section/gallery/_gallery";
+
+//Estilos generales o de layout
+main {
+  margin: $margin-viewport;
+}
+
+section {
+  margin: 0 50px;
+}
